@@ -1,0 +1,187 @@
+<!doctype html>
+<html>
+  <head>
+    <title> RicFazeres </title>
+      <meta name="description" content="Merch">
+      <meta name="keywords" content="Ric,Fazeres,Merch,Loja">
+      <meta name="author" content="DuarteFernandes">
+      <meta http-equiv="refresh" content="30">
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initialscale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/design.css">
+  </head>
+  <body>
+
+    <header>
+
+      <a id="menu_icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M2 6h20v3H2zm0 5h20v3H2zm0 5h20v3H2z" fill="white"/>
+        </svg>
+      </a>
+      <div id="drawer">
+        <nav>
+          <a href="#unordered">O que podes comprar?</a>
+          <a href="#ordered">Produtos disponiveis</a>
+          <a href="#color">Cores</a>
+          <a href="#model">Modelos</a>
+          <a href="#video">Video</a>
+        </nav>
+      </div>
+      <br>
+      <br>
+      <h1> Este boss larga balas até setubal! </h1>
+      <br>
+    </header>
+
+
+    <nav id="tabletPC" class="col-3">
+      <a href="#unordered">O que podes comprar?</a>
+      <br>
+      <a href="#ordered">Produtos disponiveis</a>
+      <br>
+      <a href="#color">Cores</a>
+      <br>
+      <a href="#model">Modelos</a>
+      <br>
+      <a href="#video">Video</a>
+      <br>
+    </nav>
+
+<div id="container" class="col-9">
+
+  <section class="slideshow-container">
+  <h2>Os meus melhores pinguins</h2>
+  <article class="mySlides" class="fade">
+    <figure>
+      <img src="images/img1.jpg">
+      <figcaption>Figure 1: Running to learn HTML5!</figcaption>
+    </figure>
+  </article>
+  <article class="mySlides" class="fade">
+    <figure>
+      <img src="images/img2.jpg">
+      <figcaption>Figure 2: Learning HTML5 is too easy...</figcaption>
+    </figure>
+  </article>
+  <article class="mySlides" class=“fade”>
+    <figure>
+      <img src="images/img3.jpg">
+      <figcaption>Figure 3: Are you having difficulties with HTML5?</figcaption>
+    </figure>
+  </article>
+  <div class="dotpoints">
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+  </section>
+
+
+    <section>
+      <a name="unordered">
+        <h2> Tudo o que tu sempre quiseste! </h2>
+          <p> Compra em <a href="https://shopricfazeres.com"> Merch RicFazeres</a> </p>
+        <i>Dentro do link anterior podes encontrar:</i>
+        <ul>
+          <li> Camisolas</li>
+          <li> Chapéus</li>
+          <li> Sweats</li>
+          <li> e muito mais...! </li>
+        </ul>
+    </section>
+
+    <section>
+      <a name="ordered">
+        <h2> Tudo o que tu sempre quiseste! </h2>
+        <i> entro do link anterior podes encontrar: </i>
+          <ol>
+            <li><u> Camisolas </u></li>
+            <li><u> Chapéus </u></li>
+            <li><u> Sweats </u> </li>
+            <li><u> e muito mais...! </u></li>
+          </ol>
+    </section>
+
+    <section>
+      <a name="model">
+        <h2>Vê a nossa merch em modelos!</h2>
+          <p> </p>
+            <img src = "https://cdn.shopify.com/s/files/1/0107/1287/5044/products/balas_preto1_410f9d2f-41f1-4955-8b7e-fe3fa0035bd0_1200x1200.png?v=1572259460">
+            <img src = "https://cdn.shopify.com/s/files/1/0107/1287/5044/products/hoodie_balas_preto_1200x1200.png?v=1572259526">
+            <p></p>
+    </section>
+
+    <section>
+      <a name="video">
+        <h2> Video mais recente do canal! </h2>
+          <iframe width="1080" height="720" src="https://www.youtube.com/embed/chjSqUDIGcg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <section>
+      <a name="color">
+      <h2>Cores da Merch Pinguins!</h2>
+        <table border=“1px”>
+          <th colspan="3">Preços </th>
+          <tr>
+          <td> Camisolas </td> <td> Qualquer cor </td> <td> 50 Pinguins </td>
+          </tr>
+          <tr>
+          <td rowspan="4">Chapéus</td>
+          <td rowspan="3"> Qualquer estilo </td>
+          <td> 20 Pinguins </td>
+          </tr>
+          <tr>
+            <td> Colares </td>
+          </tr>
+          <tr>
+            <td> Tatuagem falsa </td>
+          </tr>
+          <tr>
+            <td> Sweats </td> <td> 100Pinguins </td>
+          </tr>
+        </table>
+      <p></p>
+    </section>
+</div>
+
+    <aside class="col-2">
+      <h3> Frases Marcantes </h3>
+      <p> "Como é que é zezocas?" </p>
+    </aside>
+
+    <footer>
+      <h2> Developed by Duarte Fernandes </h2>
+    </footer>
+
+    <script>
+let slideIndex = 0;
+showSlides();
+function showSlides() {
+let i = null;
+let slides = document.getElementsByClassName("mySlides");
+let dots = document.getElementsByClassName("dot");
+for (i = 0; i < slides.length; i++) {
+slides[i].style.display = "none";
+}
+slideIndex++;
+if (slideIndex> slides.length) {slideIndex = 1}
+for (i = 0; i < dots.length; i++) {
+dots[i].className = dots[i].className.replace(" active", "");
+}
+slides[slideIndex-1].style.display = "block";
+dots[slideIndex-1].className += " active";
+setTimeout(showSlides, 3000); // Change image every 3 seconds
+}
+let menu_icon = document.querySelector ('#menu_icon');
+let container = document.querySelector ("#container");
+let drawer = document.querySelector ('#drawer');
+menu_icon.addEventListener ('click', function (e) {drawer.classList.toggle('open');
+e.stopPropagation();
+});
+container.addEventListener ('click', function () {drawer.classList.remove('open');
+});
+</script>
+
+  </body>
+</html>
